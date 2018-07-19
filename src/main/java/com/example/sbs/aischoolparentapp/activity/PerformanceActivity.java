@@ -169,6 +169,7 @@ public class PerformanceActivity extends CommonAppCompatActivity {
             String responseString = null;
 
             try {
+
                 List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
                 nameValuePairs.add(new BasicNameValuePair("student_id", SaveData.getchildid(getApplicationContext())));
                 nameValuePairs.add(new BasicNameValuePair("month", Monthname));
