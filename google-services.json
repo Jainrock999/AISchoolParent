@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "178549070791",
+    "firebase_url": "https://aischoolparentapp.firebaseio.com",
+    "project_id": "aischoolparentapp",
+    "storage_bucket": "aischoolparentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178549070791:android:869347f7eb281e2f",
+        "android_client_info": {
+          "package_name": "com.example.sbs.aischoolparentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178549070791-5osvjq8k77kgmqtqgm1ro6eh0kj74dlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sbs.aischoolparentapp",
+            "certificate_hash": "0f8b7817c70c1ef7a77b93daa6bc5e60ff0d7584"
+          }
+        },
+        {
+          "client_id": "178549070791-3g0jv77lmrb89ed9h3dme7c3insge6vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUk5ZUlLuJl9_gbleztapiqimh9GPx3SE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178549070791-3g0jv77lmrb89ed9h3dme7c3insge6vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

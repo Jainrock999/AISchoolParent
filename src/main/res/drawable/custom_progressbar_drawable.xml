@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/secondaryProgress">
+        <shape
+            android:innerRadiusRatio="6"
+            android:shape="ring"
+            android:thicknessRatio="20.0"
+            android:useLevel="false">
+
+            <gradient
+                android:centerColor="#ef5c5c"
+                android:endColor="#ef5c5c"
+                android:startColor="#ef5c5c"
+                android:type="sweep" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+
+            <shape
+                android:innerRadiusRatio="6"
+                android:shape="ring"
+                android:thicknessRatio="20.0"
+                android:useLevel="true">
+
+
+                <rotate
+                    android:fromDegrees="0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"
+                    android:toDegrees="360" />
+
+                <gradient
+                    android:centerColor="#00FF00"
+                    android:endColor="#00FF00"
+                    android:startColor="#00FF00"
+                    android:type="sweep" />
+
+            </shape>
+        </rotate>
+    </item>
+</layer-list><!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">--><!--<item android:id="@android:id/background">--><!--<shape--><!--android:innerRadiusRatio="3"--><!--android:shape="ring"--><!--android:thickness="38dp"--><!--android:thicknessRatio="7.0"--><!--android:useLevel="false">--><!--<solid android:color="#8B0000" />--><!--</shape>--><!--</item>--><!--<item android:id="@android:id/progress">--><!--&lt;!&ndash;<clip&ndash;&gt;--><!--&lt;!&ndash;android:clipOrientation="vertical"&ndash;&gt;--><!--&lt;!&ndash;android:gravity="bottom">&ndash;&gt;--><!--<shape--><!--android:innerRadiusRatio="3"--><!--android:shape="ring"--><!--android:thickness="38dp"--><!--android:thicknessRatio="7.0"--><!--android:useLevel="false">--><!--&lt;!&ndash;<solid android:color="#008800" />&ndash;&gt;--><!--</shape>--><!--&lt;!&ndash;</clip>&ndash;&gt;--><!--</item>--><!--</layer-list>-->

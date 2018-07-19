@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MonthNameActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/backiconId"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.9"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:text="Month Name"
+                android:textColor="@color/white1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="center"
+            android:text="All Month Name"
+            android:textSize="@dimen/_24sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.4">
+
+            <TextView
+                android:id="@+id/janId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="January"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/febId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="Febuary"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/marId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="March"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.4">
+
+            <TextView
+                android:id="@+id/aprId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="April"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/mayId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="May"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/juneId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="June"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.4">
+
+            <TextView
+                android:id="@+id/julyId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="July"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/augId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="Augest"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/sepId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="September"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.4">
+
+            <TextView
+                android:id="@+id/octId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="Octomber"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/novId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="November"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/decId"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:layout_weight=".8"
+                android:background="@drawable/month_rounded"
+                android:elevation="@dimen/_12sdp"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="December"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

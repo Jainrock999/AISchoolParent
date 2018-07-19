@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AISchoolParentApp</string>
+    <string name="stem">STEM</string>
+    <string name="eco">ECO</string>
+    <string name="bri">BRI</string>
+    <string name="others">OTHERS</string>
+    <string name="announcements">Announcements</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="academic">Academic</string>
+    <string name="behaviour">Behaviour</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="performance">Performance</string>
+    <string name="activity">Activity</string>
+    <string name="log">Logout</string>
+    <string name="no_internet" />
+</resources>

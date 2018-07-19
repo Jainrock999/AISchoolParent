@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.EcoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/backiconId"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.9"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:text="Eco Point"
+                android:textColor="@color/white1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_152sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="11">
+
+                <ImageView
+                    android:id="@+id/imTreeZeroId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeOneId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeTwoId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeThreeId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeFourId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeFiveId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeSixId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeSevenId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeEightId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeNineId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imTreeTenId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tree_zero"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

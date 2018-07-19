@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_academic"
+        android:orderInCategory="100"
+        android:title="@string/academic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_behaviour"
+        android:orderInCategory="100"
+        android:title="@string/behaviour"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_nutirition"
+        android:orderInCategory="100"
+        android:title="@string/nutrition"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_performance"
+        android:orderInCategory="100"
+        android:title="@string/performance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_activity"
+        android:orderInCategory="100"
+        android:title="@string/activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/log"
+        app:showAsAction="never" />
+
+</menu>
