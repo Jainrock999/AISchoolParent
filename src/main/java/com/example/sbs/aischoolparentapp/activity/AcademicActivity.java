@@ -51,6 +51,8 @@ public class AcademicActivity extends CommonAppCompatActivity {
     ImageView backiconId;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
